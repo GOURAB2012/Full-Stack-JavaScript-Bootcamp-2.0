@@ -1,0 +1,119 @@
+/* You can not modify anything in the HTML */   
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/* You can only modify the CSS file */
+.navbar-container{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+nav > div >img{
+    height: 50px;
+    width: 145px;
+}
+
+
+
+/* nav button */
+.button-group{
+    position: fixed;
+    padding-top: 10px;
+    padding-left: 83%;
+    
+}
+.nav-button{
+    padding:  14px 26px 14px 26px;
+    border-radius: 15px;
+    border: 0px;
+}
+/* nav button */
+
+.banner-container:nth-child(2){
+    padding-left: 1000px;
+}
+.banner-container > div > img{
+    padding-left: 33%;
+    padding-top: 34px;
+   height: 91%;
+   width: 67%;
+
+}
+  
+
+.heading-text{
+    position: absolute;
+    bottom:270px;
+    margin-left: 49PX;
+    font-size: 57px;    
+ 
+}
+.description{
+   
+    position: absolute;
+    bottom:270px;
+    margin-left: 49PX;
+    
+}
+.heading-text::after{
+  
+display: block;
+
+ 
+}
+span{
+   color: #4110B3ED;
+}
+ul  {
+    list-style-type: none; 
+    
+}
+li{
+    display: inline-block;
+    color: #bebac7;
+    padding-left: 30px;
+    padding-right:30px ;
+}
+ul > li:nth-child(1) {
+    color:#000000;
+}
+
+
+
+.nav-button{
+    background-color: #4110B3ED;
+    color: #ffffff;
+}
+\\span{
+    display: block;
+    
+}
+div.banner-container > div > h1 {
+    
+    height: 184px;
+    width: 356px;
+}
+
+div.banner-container > div > p{
+  
+    height: 5px;
+    width: 328px;
+}
+button.nav-button.btn{
+    height:57px;
+}
+.nav-button.btn{
+    position: absolute;
+    bottom:173px;
+    margin-left: 50px;
+    padding-left: 51px;
+    padding-right: 51px;
+
+}
+.navbar-container img{
+    size: 10px;
+}
+
+

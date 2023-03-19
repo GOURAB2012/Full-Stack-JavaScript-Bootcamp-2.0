@@ -1,0 +1,216 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+body{
+    font-family: 'Roboto', sans-serif;
+
+    height: 800px;
+    width: 1508px;
+    margin: 0px;
+    
+}
+
+/* nav bar start */
+.navbar{
+    background-color: black;
+    height: 81px;
+    width: 1519px;
+    columns: 5;
+    column-gap: 40px;
+}
+.container{
+   
+    height: 800px;
+    width: 1519px;
+    
+    background-image: url('./assets/bg.png');
+    background-repeat: no-repeat;
+    background-size: 1519px 850px
+}
+/* logo */
+.navbar > div > img {
+    
+    height: 28px;
+    width: 78px;
+    margin-left: 59px;
+    margin-top: 26px;
+    border-right:1.6px solid white ;
+    padding-right: 55px;
+    border-radius: 2px;
+}
+
+/* nav bar item */
+.grow-list{
+    position: relative;
+    height: 40px;
+    width: 615px;
+    margin-left: -51px;
+    PADDING-top: 15px;
+    color: white;
+    
+}
+.list{
+    columns: 5;
+   
+    width:600px ;
+    list-style: none;
+
+}
+ ul :nth-child(1)  {
+    background-position: center;
+    background-size: 24px 14px;
+    background-image: url(https://www.prosoundweb.com/wp-content/uploads/2020/03/Down-Arrow-PNG-768x403.png);
+    background-repeat: no-repeat;
+    height: 19px;
+    }
+
+ 
+
+
+/* li:nth-child(1) ::after{
+   color: #ffffff;
+   background-color: #ffffff;
+    width: 0.5em;
+  height: 0.5em;
+  display: inline-block;
+  vertical-align: middle;
+  border-left: 0.15em solid white;
+  border-bottom: 0.15em solid white;
+  transform: rotate(-45deg);
+  margin-left: 0.38em;
+  margin-top: -0.25em;
+} */
+/* nav button */
+.button-small{
+    margin-left: 643px;
+    margin-top: 22px;
+    color: #ffffff;
+    height: 36px;
+    width: 129px;
+    border-radius: 6px;
+   background-color: #C140D4;
+}
+
+.hero{
+    height: 500px;
+    width: 630px;
+    text-align: center;
+    padding-left: 446px;
+    padding-top: 110px;
+}
+
+.hero h1{
+    font-size: 67px;
+    color: #ffffff;
+    margin: 0px;
+}
+ 
+.hero p{
+    color: #ffffff;
+    font-size: 22px;
+    margin-top: 12px;
+}
+.button-large{
+    height: 40px;
+    width: 197px;
+    font-size: 17px;
+    border-radius: 5px;
+    border: 0px;
+    color: #ffffff;
+    margin-top: 28px;
+    background-color:#C140D4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  
+body{
+    padding: 0px;
+    margin: 0px;
+    margin-top: 0px;
+    height: 1080px;
+    width: 100%;
+    
+}
+.container{
+    background-image: url('./assets/bg.png');
+    height: 100%;
+    width: 100%;
+    
+}
+/* nav bar  */
+/*  *
+.navbar{
+   position: fixed;
+   height: 100px;
+   width: 104%;
+   margin-top: -20px;
+   margin-left: 0px;
+ background-color: black;
+}
+
+div img{
+    height: 29px;
+    width: 90px;
+    padding-left: 81px;
+    padding-top:30px;
+}
+ul > .list-item ::after{
+    <span class="material-symbols-outlined">
+    expand_more
+    </span>
+}
+li{
+    color: #ffffff;
+    display: inline;
+    list-style-type:none;
+
+}
+div .grow-list > ul {
+  
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+
+.grow-list{
+    position: relative;
+    padding-left:20%;
+    padding-top: 19px;
+}
+.list-item{
+    padding-left:26px;
+    padding-right: 26px;
+}
+
+.button-small{
+    margin-left: 1322px;
+    margin-top: 24px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: 0px;
+    border-radius: 5px;
+    
+}
+
+.navbar > div{
+    position: fixed;
+    margin-top: 10px;
+}
+*/
+/* nab bar END */

@@ -1,5 +1,5 @@
-# Replicate the Following Output
+# Final output
 
-`Assests are Provided!`
+
 
 ![Project 5](./Main%20Landing%20page.png)
